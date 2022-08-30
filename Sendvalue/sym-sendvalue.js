@@ -45,7 +45,7 @@
 		
 	//var baseUrl = PV.ClientSettings.PIWebAPIUrl.replace(/\/?$/, '/'); //Example: "https://server.domain.com/piwebapi/";
 	//Added because of change with pi vision versions
-	var baseUrl = 'https://usatripics/piwebapi';	
+	var baseUrl = 'https://server.domain.com/piwebapi';	
 	symbolVis.prototype.init = function (scope, elem, $http, $q){
 			
 		var TYPES = {
