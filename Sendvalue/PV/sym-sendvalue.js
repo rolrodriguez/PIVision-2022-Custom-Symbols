@@ -289,7 +289,8 @@
 								"Content": JSON.stringify(data),
 								"Headers": {
 									'Content-Type': 'application/json'
-								}
+								},
+								"Mode": 'no-cors'
 					}
 				
 				});		   
